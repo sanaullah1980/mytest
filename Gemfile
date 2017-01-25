@@ -27,6 +27,7 @@ gem 'coffee-script-source', '1.8.0'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'rspec'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
@@ -37,6 +38,7 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
   gem 'debugger'
+  gem 'rspec-rails'
 end
 
 group :development do
